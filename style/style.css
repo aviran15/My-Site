@@ -1,0 +1,108 @@
+html{
+	font-family: Roboto, sans-serif;
+}
+
+header h1{
+	font-size: 4em;
+	padding-left: 5%;
+	margin-bottom: 5%;
+
+}
+
+
+.me{
+font-size: 2em;
+	margin-bottom: 0;
+		padding-left: 5%;
+}
+
+.about-me{
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+	padding-left: 5%;
+}
+
+
+.about-me p{
+	grid-column: 1 /span 1;
+	font-weight: bolder;
+	line-height: 2;
+	grid-row: 1;
+}
+
+.my-photo{
+	grid-column: 2 /span 1;
+	grid-row: 1;
+	justify-self: end;
+	margin-right: 50px;
+}
+
+.my-photo img{
+	height: auto;
+	width: 500px;
+}
+
+.my-projects{
+	margin-top: 100px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.my-projects h2{
+	padding-bottom: 20px;
+	margin-bottom: auto;
+}
+
+.projects{
+	display: inline-flex;
+	justify-content: center;
+}
+
+.projects li{
+	padding-right: 150px;
+	margin: 0 auto;
+	opacity: 0.7;
+}
+
+hr{
+	border-top: 3px solid slategray;
+	opacity: 0.8;
+	margin: 0;
+}
+
+footer{
+	width: auto;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+footer h3{
+		font-size: 2em;
+		margin-top:50px;
+		margin-bottom: 30px;
+}
+
+footer i{
+	margin-right: 50px;
+}
+
+.text-size{
+	margin-left: 5%;
+}
+.text-size #big,
+#default{
+	margin-right: 10px;
+}
+
+.facebook:hover {
+	color: blue;
+}
+
+.twitter1:hover{
+	color: lightblue;
+}
+
+.github1:hover{
+	color: mediumpurple;
+}
